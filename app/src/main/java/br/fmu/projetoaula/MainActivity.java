@@ -1,5 +1,6 @@
 package br.fmu.projetoaula;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -36,6 +37,15 @@ public class MainActivity extends AppCompatActivity {
         int y = Integer.parseInt(editTextNumero2.getText().toString());
         int soma = x + y;
         editTextSoma.setText(Integer.toString(soma));
+    }
+
+    public void abrirOutra(View view) {
+        int x = Integer.parseInt(editTextNumero1.getText().toString());
+        int y = Integer.parseInt(editTextNumero2.getText().toString());
+        int soma = x + y;
+        Intent intent = new Intent(this, NovaActivity.class);
+        intent.putExtra("soma", soma);
+        startActivity(intent);
     }
 }
 

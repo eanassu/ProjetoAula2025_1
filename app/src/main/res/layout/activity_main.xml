@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="36dp"
-        android:onClick="somar"
+        android:onClick="abrirOutra"
         android:text="@string/txt_somar"
         app:layout_constraintStart_toStartOf="@+id/editTextNumero2"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumero2" />
