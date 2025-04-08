@@ -47,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("soma", soma);
         startActivity(intent);
     }
+
+    public void abrirGorjeta(View view) {
+        Intent intent = new Intent(this, TipCalculatorActivity.class);
+        startActivity(intent);
+    }
 }
 
 
