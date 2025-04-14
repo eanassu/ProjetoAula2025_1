@@ -11,6 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.Date;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText editTextNumero1;
@@ -51,6 +53,12 @@ public class MainActivity extends AppCompatActivity {
     public void abrirGorjeta(View view) {
         Intent intent = new Intent(this, TipCalculatorActivity.class);
         startActivity(intent);
+    }
+
+    public void testeBD(View view) {
+        AppDatabase db = AppDatabase.getInstance(this);
+        FuncionarioDao dao = db.funcionarioDao();
+        dao.insert(new Funcionario(1,"aaa",new Date(), 1000.0));
     }
 }
 
