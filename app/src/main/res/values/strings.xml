@@ -6,4 +6,14 @@
     <string name="txt_gorjeta">Gorjeta</string>
     <string name="txt_total">Total</string>
     <string name="txt_valor">Valor</string>
+    <string name="txt_re">RE</string>
+    <string name="txtNome">Nome</string>
+    <string name="txt_dataadmissao">Data de Admissão</string>
+    <string name="txt_salario">Salário</string>
+    <string name="txt_buscar">Buscar</string>
+    <string name="txt_Cadastrar">Cadastrar</string>
+    <string name="txt_atualizar">Atualizar</string>
+    <string name="txt_excluir">Excluir</string>
+    <string name="txt_listar">Listar</string>
+    <string name="txt_limpar">Limpar</string>
 </resources>

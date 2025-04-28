@@ -56,9 +56,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void testeBD(View view) {
-        AppDatabase db = AppDatabase.getInstance(this);
-        FuncionarioDao dao = db.funcionarioDao();
-        dao.insert(new Funcionario(1,"aaa",new Date(), 1000.0));
+        Intent intent = new Intent(this, DatabaseActivity.class);
+        startActivity(intent);
     }
 }
 
