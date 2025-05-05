@@ -1,5 +1,6 @@
 package br.fmu.projetoaula;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -94,6 +95,11 @@ public class DatabaseActivity extends AppCompatActivity {
         }
         Double salario = Double.parseDouble(editTextSalario.getText().toString());
         dao.delete(new Funcionario(re,nome,dataAdmissao,salario));
+    }
+
+    public void listar(View view) {
+        Intent intent = new Intent(this, ListaActivity.class);
+        startActivity(intent);
     }
 
 }
