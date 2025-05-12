@@ -100,7 +100,18 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="22dp"
         android:onClick="testeBD"
-        android:text="Button"
+        android:text="@string/txt_bd"
         app:layout_constraintStart_toStartOf="@+id/editTextSoma"
         app:layout_constraintTop_toBottomOf="@+id/editTextSoma" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="36dp"
+        android:onClick="sensores"
+        android:text="@string/txt_sensores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

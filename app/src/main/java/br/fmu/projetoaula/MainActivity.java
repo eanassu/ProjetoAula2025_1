@@ -59,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DatabaseActivity.class);
         startActivity(intent);
     }
+
+    public void sensores(View view) {
+        Intent intent = new Intent(this, SensoresActivity.class);
+        startActivity(intent);
+    }
 }
 
 

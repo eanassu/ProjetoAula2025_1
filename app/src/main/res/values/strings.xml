@@ -16,4 +16,6 @@
     <string name="txt_excluir">Excluir</string>
     <string name="txt_listar">Listar</string>
     <string name="txt_limpar">Limpar</string>
+    <string name="txt_sensores">Sensores</string>
+    <string name="txt_bd">Banco de dados</string>
 </resources>
