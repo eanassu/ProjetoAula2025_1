@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SensoresActivity.class);
         startActivity(intent);
     }
+
+    public void desenho(View view) {
+        Intent intent = new Intent(this, DesenhoActivity.class);
+        startActivity(intent);
+    }
 }
 
 
